@@ -121,6 +121,8 @@ python -c "import sys; print(sys.executable)"
 
 ## Run our first calculation example
 
+The full desktop app is now available. Launch it with `python app.py` while the environment is activated, or `.\.venv\Scripts\python.exe app.py` without activation. See README.md for features and controls.
+
 With the environment activated:
 
 ```powershell
