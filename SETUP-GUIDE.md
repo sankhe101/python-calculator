@@ -119,4 +119,22 @@ cd "C:\Users\sankh\OneDrive\Documents\python-calculator"
 python -c "import sys; print(sys.executable)"
 ```
 
-Once the calculator code exists, we will add its launch command and test commands here.
+## Run our first calculation example
+
+With the environment activated:
+
+```powershell
+python calculator.py
+```
+
+Expected output: `0.3`. This is currently a small addition example; the expression parser and desktop window will be added in later steps.
+
+## Run automated tests
+
+```powershell
+python -m unittest -v
+```
+
+The tests check exact decimal addition and addition with a negative number. An `OK` result means all tests passed.
+
+Without activation, use `.\.venv\Scripts\python.exe` in place of `python` in these commands.
